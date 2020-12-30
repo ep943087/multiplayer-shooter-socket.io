@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <div class="modal">
+        <h1 class="modal-title">Message</h1>
+        <button class='play-button'>Play Again!</button>
+        <button class='quit-button'>Quit</button>
+    </div>
+    <div class="backdrop"></div>
+    <h1>Game</h1>
+    <canvas id="myCanvas"></canvas>
+    <div class="leaderboard-div">
+        <ul class="leaderboard"></ul>
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/game.js"></script>
+</html>
